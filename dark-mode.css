@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(215deg,black,	#1C1C1C)
+}
+
+
+.content-tarefas{
+    background: #101C23;
+}
+
+
+.dark-mode{
+    color: #fff;
+}
+
+
+#search-btn{
+    background:#0E141A;
+    color: #fff;
+}
+
+.annotation-content li{
+    background: #2c3e50;
+    border: 1px solid white;
+}
+
+
+.content-replace{
+    background: linear-gradient(215deg,black,	#1C1C1C);
+    color: #fff;
+}
+
+.content-replace .save{
+    background:#0E141A;
+}

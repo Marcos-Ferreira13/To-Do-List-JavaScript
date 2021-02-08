@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(235deg,red,blue);
+    font-family: 'Zilla Slab', serif;
+    height: 100vh;
+}
+.content-tarefas{
+    
+    width: 770px;
+    height: 70%;
+    margin-top: 15px;
+    background: linear-gradient(235deg,purple,red);
+    border: 2px solid black;
+    max-height: 400px;
+    overflow: auto;
+    padding:10px;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.topo{
+    text-align: center;
+    
+}
+.topo h1{
+    padding: 15px;
+    color: #fff;
+}
+.annotation{
+    margin: 10px;
+    
+    padding: 10px;
+    background: linear-gradient(215deg,#00008B,#000080);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.annotation:hover{
+    transform: scale(1.01);
+   
+    
+
+}
+
+
+.ul-topo{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.ul-topo input{
+    width: 650px;
+    padding: 10px 0;
+    
+}
+
+.ul-topo i{
+    background: linear-gradient(315deg,red,blue);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.icons i{
+    margin-left:5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+   
+}
+
+.content-replace{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: linear-gradient(235deg,red,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    visibility: hidden;
+}
+.show-replace{
+    visibility: initial;
+    transition: all .5s ease;
+}
+.replace{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.replace input,.replace .save{
+    padding: 10px;
+    width: 400px;
+}
+
+.replace .save{
+    background: linear-gradient(215deg,red,blue);
+    border-radius: 30px;
+    border: none;
+    color:#fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.autor{
+    position: absolute;
+    bottom: 0;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+.dark-mode{
+    position: fixed;
+    right: 0;
+    top: 0;
+    font-size: 35px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
